@@ -1,0 +1,136 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .question label {
+            display: block;
+            margin: 5px 0;
+        }
+
+        .question input {
+            margin-right: 10px;
+        }
+
+        #result {
+            text-align: center;
+            margin-top: 20px;
+            display: none; /* Oculta o QR code inicialmente */
+        }
+
+        #qrcode {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz</h1>
+
+        <div class="question">
+            <p>1. Qual é a cor do céu em um dia claro?</p>
+            <label><input type="radio" name="q1" value="A"> Azul</label>
+            <label><input type="radio" name="q1" value="B"> Verde</label>
+            <label><input type="radio" name="q1" value="C"> Vermelho</label>
+        </div>
+
+        <div class="question">
+            <p>2. Qual é a capital da França?</p>
+            <label><input type="radio" name="q2" value="A"> Paris</label>
+            <label><input type="radio" name="q2" value="B"> Londres</label>
+            <label><input type="radio" name="q2" value="C"> Roma</label>
+        </div>
+
+        <div class="question">
+            <p>3. Qual é o maior planeta do sistema solar?</p>
+            <label><input type="radio" name="q3" value="A"> Terra</label>
+            <label><input type="radio" name="q3" value="B"> Marte</label>
+            <label><input type="radio" name="q3" value="C"> Júpiter</label>
+        </div>
+
+        <button id="submitBtn">Enviar Respostas</button>
+
+        <div id="result">
+            <h2>Parabéns! Você acertou todas as perguntas!</h2>
+            <img id="qrcode" src="pix-qrcode.png" alt="QR Code">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz da DEDESSA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz da Dedessa</h1>
+
+        <div class="question">
+            
+            <p>1.Essa foto foi tirada em qual ocasião?</p>
+            <img src="img/WhatsApp Image 2024-08-03 at 17.19.12 (1) (2) (1).jpeg" alt="">
+            <label><input type="radio" name="q1" value="A"> Despedida da Amandinha</label>
+            <label><input type="radio" name="q1" value="B"> Almoço de sexta</label>
+            <label><input type="radio" name="q1" value="C"> Aniversário do Romulo</label>
+        </div>
+
+        <div class="question">
+            <p>2. (de guilherme para Andressa) <br>Quantos aniversários já comemoramos juntos?</p>
+            <label><input type="radio" name="q2" value="A"> 3</label>
+            <label><input type="radio" name="q2" value="B"> 0</label>
+            <label><input type="radio" name="q2" value="C"> 10</label>
+        </div>
+
+        <div class="question">
+            <p>3. Onde é o pós HOJE?</p>
+            <label><input type="radio" name="q3" value="A"> Cabaré da mocinha</label>
+            <label><input type="radio" name="q3" value="B"> Culto de jovens</label>
+            <label><input type="radio" name="q3" value="C"> TODO MUNDO EM CASA</label>
+        </div>
+
+        <button id="submitBtn">Enviar Respostas</button>
+
+        <div id="result">
+            <h2>Parabéns! Você acertou todas as perguntas!</h2>
+            <img id="qrcode" src="pix-qrcode.png" alt="QR Code">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
